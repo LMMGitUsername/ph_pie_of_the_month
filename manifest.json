@@ -1,0 +1,36 @@
+/*
+Using https://www.w3schools.com/js/js_comments.asp and
+https://developer.chrome.com/extensions/overview AND
+https://developer.chrome.com/extensions (and /getstarted)
+AND https://dzone.com/articles/develop-your-first-google-chrome-extension-using-h-1
+to adapt the example manifest.json file
+*/
+{
+  "name": "Pie Of The Month",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Gets the Pinthouse Pie of the Month from
+  http://pinthousepizza.com/food/menu.",
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/phpIcon16x13.png",
+      "32": "images/phpIcon32x27.png",
+      "48": "images/phpIcon48x40.png",
+      "128": "images/phpIcon128x108.png"
+    }
+  },
+  "icons": {
+    "16": "images/phpIcon16x13.png",
+    "32": "images/phpIcon32x27.png",
+    "48": "images/phpIcon48x40.png",
+    "128": "images/phpIcon128x108.png"
+  },
+  /*help from
+   https://developers.chrome.com/extensions/xhr*/
+  "permissions": [
+    "http://pinthousepizza.com/food/menu"
+  ],
+  /*https://stackoverflow.com/questions/25867584/extension-refuses-to-load-the-script-due-to-content-security-policy-directive*/
+  "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
+}
