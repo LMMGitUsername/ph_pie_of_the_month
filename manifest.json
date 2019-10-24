@@ -6,10 +6,10 @@ AND https://dzone.com/articles/develop-your-first-google-chrome-extension-using-
 to adapt the example manifest.json file
 */
 {
-  "name": "Pie Of The Month",
+  "name": "Pinthouse Pie Of The Month",
   "version": "1.0",
   "manifest_version": 2,
-  "description": "Gets the Pinthouse Pie of the Month from
+  "description": "Shows the current Pinthouse Pie of the Month from
   http://pinthousepizza.com/food/menu.",
   "browser_action": {
     "default_popup": "popup.html",
