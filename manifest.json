@@ -9,8 +9,7 @@ to adapt the example manifest.json file
   "name": "Pinthouse Pie Of The Month",
   "version": "1.0",
   "manifest_version": 2,
-  "description": "Shows the current Pinthouse Pie of the Month from
-  http://pinthousepizza.com/food/menu.",
+  "description": "Shows the current Pinthouse Pie of the Month from http://pinthousepizza.com/food/menu.",
   "browser_action": {
     "default_popup": "popup.html",
     "default_icon": {
