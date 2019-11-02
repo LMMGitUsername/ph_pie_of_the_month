@@ -1,17 +1,12 @@
 body {
   margin: 6px;
-  min-width: 40em ;
+  min-width: 40em;
 }
 
 p {
   /* I'm not sure if this is the best way to style this, but it works on my computer well -lagbrie*/
-  padding: 4px;
   margin-block-start: 0em;
   margin-block-end: 0em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-}
-
-#pizzaInfo {
-background-color: rgb(148, 17, 17, 0.5);
 }
